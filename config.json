@@ -1,0 +1,22 @@
+
+  {
+    "file_path_excel": "path/to/metadata.xlsx",
+    "data_percentage": 1,
+    "train_test_split_percentage": 0.8,
+    "output_dir_train": "/Users/ellaquan/Project/Multimodal_data",
+    "output_dir_test": "/Users/ellaquan/Project/Multimodal_data",
+    "views": ["CC", "MLO", "US"],
+    "output_excel_name_train": "train_labels.xlsx",
+    "output_excel_name_test": "test_labels.xlsx",
+    "seed": 1203,
+    "as_gray": true,
+    "in_channel": 3,
+    "img_rows": 256,
+    "img_cols": 256,
+    "num_classes": 2,
+    "batch_size": 32,
+    "all_epochs": 2, 
+    "input_shape": [256, 256, 3],
+    "train_labels_path": "/Users/ellaquan/Project/Multimodal_data/train_labels.xlsx",
+    "test_labels_path": "/Users/ellaquan/Project/Multimodal_data/test_labels.xlsx"
+  }
